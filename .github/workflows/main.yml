@@ -75,3 +75,27 @@ jobs:
         with:
           name: SharpHound3
           path: SharpHound3\SharpHound3\bin\Release\SharpHound.exe
+      - uses: actions/upload-artifact@master
+        with:
+          name: SafetyKatz
+          path: SafetyKatz\SafetyKatz\bin\Release\SafetyKatz.exe
+      - uses: actions/upload-artifact@master
+        with:
+          name: Grouper2
+          path: Grouper2\Grouper2\bin\Release\Grouper2.exe
+      - uses: actions/upload-artifact@master
+        with:
+          name: Rubeus
+          path: Rubeus\Rubeus\bin\Release\Rubeus.exe
+      - uses: actions/upload-artifact@master
+        with:
+          name: SharpDomainSpray
+          path: SharpDomainSpray\SharpDomainSpray\bin\Release\SharpDomainSpray.exe
+      - uses: actions/upload-artifact@master
+        with:
+          name: SharPersist
+          path: SharPersist\SharPersist\bin\Release\SharPersist.exe
+      - uses: actions/upload-artifact@master
+        with:
+          name: SharpLocker
+          path: SharpLocker\SharpLocker\bin\Release\SharpLocker.exe
