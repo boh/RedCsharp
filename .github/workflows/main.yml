@@ -53,10 +53,10 @@ jobs:
         run: nuget restore $Env:GITHUB_WORKSPACE\SharPersist\SharPersist.sln
       
       - name: Nuget Install Costura.Fody
-        run: nuget install Costura.Fody -Version 3.3.3 -OutputDirectory packages
+        run: nuget install Costura.Fody -Version 3.3.3 -OutputDirectory D:\a\RedCsharp\RedCsharp\SharPersist\packages
       
       - name: Nuget Install TaskScheduler
-        run: nuget install TaskScheduler -Version 2.8.11 -OutputDirectory packages
+        run: nuget install TaskScheduler -Version 2.8.11 -OutputDirectory D:\a\RedCsharp\RedCsharp\SharPersist\packages
           
       - name: Build SharPersist
         run: |
