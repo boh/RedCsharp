@@ -64,3 +64,147 @@
 [submodule "Sharp-InvokeWMIExec"]
 	path = Sharp-InvokeWMIExec
 	url = https://github.com/TheWover/Sharp-InvokeWMIExec
+[submodule "Sharp-Suite"]
+	path = Sharp-Suite
+	url = https://github.com/rvrsh3ll/Sharp-Suite
+[submodule "SharpAdidnsdump"]
+	path = SharpAdidnsdump
+	url = https://github.com/b4rtik/SharpAdidnsdump
+[submodule "SharpAttack"]
+	path = SharpAttack
+	url = https://github.com/jaredhaight/SharpAttack
+[submodule "SharpClipHistory"]
+	path = SharpClipHistory
+	url = https://github.com/FSecureLABS/SharpClipHistory
+[submodule "SharpCloud"]
+	path = SharpCloud
+	url = https://github.com/chrismaddalena/SharpCloud
+[submodule "SharpCOM"]
+	path = SharpCOM
+	url = https://github.com/rvrsh3ll/SharpCOM
+[submodule "SharpCompile"]
+	path = SharpCompile
+	url = https://github.com/SpiderLabs/SharpCompile
+[submodule "SharpCradle"]
+	path = SharpCradle
+	url = https://github.com/anthemtotheego/SharpCradle
+[submodule "SharpDomainSpray"]
+	path = SharpDomainSpray
+	url = https://github.com/HunnicCyber/SharpDomainSpray
+[submodule "SharpDoor"]
+	path = SharpDoor
+	url = https://github.com/infosecn1nja/SharpDoor
+[submodule "SharpDPAPI"]
+	path = SharpDPAPI
+	url = https://github.com/GhostPack/SharpDPAPI
+[submodule "SharpDump"]
+	path = SharpDump
+	url = https://github.com/GhostPack/SharpDump
+[submodule "SharpEdge"]
+	path = SharpEdge
+	url = https://github.com/rvrsh3ll/SharpEdge
+[submodule "SharPersist"]
+	path = SharPersist
+	url = https://github.com/fireeye/SharPersist
+[submodule "SharpExec"]
+	path = SharpExec
+	url = https://github.com/anthemtotheego/SharpExec
+[submodule "SharpFruit"]
+	path = SharpFruit
+	url = https://github.com/rvrsh3ll/SharpFruit
+[submodule "SharpHide"]
+	path = SharpHide
+	url = https://github.com/outflanknl/SharpHide
+[submodule "Sharp-SMBExec"]
+	path = Sharp-SMBExec
+	url = https://github.com/checkymander/Sharp-SMBExec
+[submodule "SharpLoadImage"]
+	path = SharpLoadImage
+	url = https://github.com/b4rtik/SharpLoadImage
+[submodule "SharpLocker"]
+	path = SharpLocker
+	url = https://github.com/Pickfordmatt/SharpLocker
+[submodule "SharpLogger"]
+	path = SharpLogger
+	url = https://github.com/djhohnstein/SharpLogger
+[submodule "SharpNeedle"]
+	path = SharpNeedle
+	url = https://github.com/ChadSki/SharpNeedle
+[submodule "SharpPack"]
+	path = SharpPack
+	url = https://github.com/mdsecactivebreach/SharpPack
+[submodule "sharppcap"]
+	path = sharppcap
+	url = https://github.com/chmorgan/sharppcap
+[submodule "SharpPrinter"]
+	path = SharpPrinter
+	url = https://github.com/rvrsh3ll/SharpPrinter
+[submodule "SharpRoast-Parser"]
+	path = SharpRoast-Parser
+	url = https://github.com/justinbui/SharpRoast-Parser
+[submodule "SharpRoast"]
+	path = SharpRoast
+	url = https://github.com/GhostPack/SharpRoast
+[submodule "SharpSCADA"]
+	path = SharpSCADA
+	url = https://github.com/GavinYellow/SharpSCADA
+[submodule "SharpSC"]
+	path = SharpSC
+	url = https://github.com/djhohnstein/SharpSC
+[submodule "SharpSniper"]
+	path = SharpSniper
+	url = https://github.com/HunnicCyber/SharpSniper
+[submodule "SharpSocks"]
+	path = SharpSocks
+	url = https://github.com/nettitude/SharpSocks
+[submodule "SharpSploit"]
+	path = SharpSploit
+	url = https://github.com/cobbr/SharpSploit
+[submodule "SharpSpray"]
+	path = SharpSpray
+	url = https://github.com/jnqpblc/SharpSpray
+[submodule "SharpSSDP"]
+	path = SharpSSDP
+	url = https://github.com/rvrsh3ll/SharpSSDP
+[submodule "SharpTask"]
+	path = SharpTask
+	url = https://github.com/jnqpblc/SharpTask
+[submodule "SharpView"]
+	path = SharpView
+	url = https://github.com/tevora-threat/SharpView
+[submodule "SharpWeb"]
+	path = SharpWeb
+	url = https://github.com/djhohnstein/SharpWeb
+[submodule "SharpWMI"]
+	path = SharpWMI
+	url = https://github.com/GhostPack/SharpWMI
+[submodule "SharPyShell"]
+	path = SharPyShell
+	url = https://github.com/antonioCoco/SharPyShell
+[submodule "SilkETW"]
+	path = SilkETW
+	url = https://github.com/fireeye/SilkETW
+[submodule "SneakyService"]
+	path = SneakyService
+	url = https://github.com/malcomvetter/SneakyService
+[submodule "Stracciatella"]
+	path = Stracciatella
+	url = https://github.com/mgeeky/Stracciatella
+[submodule "taskkill"]
+	path = taskkill
+	url = https://github.com/malcomvetter/taskkill
+[submodule "TCPRelayInjecter2"]
+	path = TCPRelayInjecter2
+	url = https://github.com/Arno0x/TCPRelayInjecter2
+[submodule "TikiTorch"]
+	path = TikiTorch
+	url = https://github.com/rasta-mouse/TikiTorch
+[submodule "Watson"]
+	path = Watson
+	url = https://github.com/rasta-mouse/Watson
+[submodule "Lockless"]
+	path = Lockless
+	url = https://github.com/GhostPack/Lockless
+[submodule "SharpGPOAbuse"]
+	path = SharpGPOAbuse
+	url = https://github.com/FSecureLABS/SharpGPOAbuse
