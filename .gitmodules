@@ -1,3 +1,66 @@
 [submodule "Ps-Tools"]
 	path = Ps-Tools
 	url = https://github.com/outflanknl/Ps-Tools
+[submodule "CasperStager"]
+	path = CasperStager
+	url = https://github.com/ustayready/CasperStager
+[submodule "CSExec"]
+	path = CSExec
+	url = https://github.com/malcomvetter/CSExec
+[submodule "CSharpCreateThreadExample"]
+	path = CSharpCreateThreadExample
+	url = https://github.com/djhohnstein/CSharpCreateThreadExample
+[submodule "CSharpScripts"]
+	path = CSharpScripts
+	url = https://github.com/Arno0x/CSharpScripts
+[submodule "CSharpSetThreadContext"]
+	path = CSharpSetThreadContext
+	url = https://github.com/djhohnstein/CSharpSetThreadContext
+[submodule "DnsCache"]
+	path = DnsCache
+	url = https://github.com/malcomvetter/DnsCache
+[submodule "FreshCookees"]
+	path = FreshCookees
+	url = https://github.com/P1CKLES/FreshCookees
+[submodule "GoldenTicket"]
+	path = GoldenTicket
+	url = https://github.com/ZeroPointSecurity/GoldenTicket
+[submodule "Grouper2"]
+	path = Grouper2
+	url = https://github.com/l0ss/Grouper2
+[submodule "Inception"]
+	path = Inception
+	url = https://github.com/two06/Inception
+[submodule "Minidump"]
+	path = Minidump
+	url = https://github.com/3xpl01tc0d3r/Minidump
+[submodule "MiscTools"]
+	path = MiscTools
+	url = https://github.com/rasta-mouse/MiscTools
+[submodule "NamedPipes"]
+	path = NamedPipes
+	url = https://github.com/malcomvetter/NamedPipes
+[submodule "nopowershell"]
+	path = nopowershell
+	url = https://github.com/bitsadmin/nopowershell
+[submodule "Reg_Built"]
+	path = Reg_Built
+	url = https://github.com/P1CKLES/Reg_Built
+[submodule "Rubeus"]
+	path = Rubeus
+	url = https://github.com/GhostPack/Rubeus
+[submodule "RunSharp"]
+	path = RunSharp
+	url = https://github.com/fullmetalcache/RunSharp
+[submodule "SafetyKatz"]
+	path = SafetyKatz
+	url = https://github.com/GhostPack/SafetyKatz
+[submodule "Seatbelt"]
+	path = Seatbelt
+	url = https://github.com/GhostPack/Seatbelt
+[submodule "self-morphing-csharp-binary"]
+	path = self-morphing-csharp-binary
+	url = https://github.com/bytecode77/self-morphing-csharp-binary
+[submodule "Sharp-InvokeWMIExec"]
+	path = Sharp-InvokeWMIExec
+	url = https://github.com/TheWover/Sharp-InvokeWMIExec
