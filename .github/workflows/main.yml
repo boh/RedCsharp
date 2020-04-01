@@ -26,7 +26,7 @@ jobs:
           
       - name: Build SharpHound3
         run: |
-          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\"
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
           .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpHound3\SharpHound3\SharpHound3.csproj /property:Configuration=Release
       
       - uses: actions/upload-artifact@master
