@@ -90,7 +90,7 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: SharpDomainSpray
-          path: SharpDomainSpray\SharpDomainSpray\bin\Release\SharpDomainSpray.exe
+          path: SharpDomainSpray\bin\Release\SharpDomainSpray.exe
       - uses: actions/upload-artifact@master
         with:
           name: SharPersist
