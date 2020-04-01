@@ -28,6 +28,36 @@ jobs:
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
           .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpHound3\SharpHound3\SharpHound3.csproj /property:Configuration=Release
+          
+      - name: Build SafetyKatz
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SafetyKatz\SafetyKatz\SafetyKatz.csproj /property:Configuration=Release
+          
+      - name: Build Grouper2
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\Grouper2\Grouper2\Grouper2.csproj /property:Configuration=Release
+          
+      - name: Build Rubeus
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\Rubeus\Rubeus\Rubeus.csproj /property:Configuration=Release
+          
+      - name: Build SharpDomainSpray
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpDomainSpray\SharpDomainSpray.csproj /property:Configuration=Release
+          
+      - name: Build SharPersist
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharPersist\SharPersist\SharPersist.csproj /property:Configuration=Release
+          
+      - name: Build SharpLocker
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpLocker\SharpLocker\SharpLocker.csproj /property:Configuration=Release
       
       - uses: actions/upload-artifact@master
         with:
