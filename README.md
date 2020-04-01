@@ -1,5 +1,7 @@
 # RedCsharp
 
+![Build](https://github.com/boh/RedCsharp/workflows/Build/badge.svg)
+
 ## Offensive C# tools
 
 * CasperStager
