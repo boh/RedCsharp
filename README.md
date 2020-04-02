@@ -74,5 +74,5 @@
 * Watson
 * Lockless
 * SharpGPOAbuse
-* KittyLitter 
+* [KittyLitter ](https://github.com/djhohnstein/KittyLitter)
   * Credential Dumper. It is comprised of two components, KittyLitter.exe and KittyScooper.exe. This will bind across TCP, SMB, and MailSlot channels to communicate credential material to lowest privilege attackers.
