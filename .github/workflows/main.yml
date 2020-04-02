@@ -26,10 +26,76 @@ jobs:
           
       - name: Build SharpHound3
         run: |
-          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\"
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
           .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpHound3\SharpHound3\SharpHound3.csproj /property:Configuration=Release
+          
+      - name: Build SafetyKatz
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SafetyKatz\SafetyKatz\SafetyKatz.csproj /property:Configuration=Release
+          
+      - name: Build Grouper2
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\Grouper2\Grouper2\Grouper2.csproj /property:Configuration=Release
+          
+      - name: Build Rubeus
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\Rubeus\Rubeus\Rubeus.csproj /property:Configuration=Release
+          
+      - name: Build SharpDomainSpray
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpDomainSpray\SharpDomainSpray.csproj /property:Configuration=Release
+          
+      - name: Nuget Restore SharPersist
+        run: nuget restore $Env:GITHUB_WORKSPACE\SharPersist\SharPersist.sln
+      
+      - name: Nuget Install Costura.Fody
+        run: nuget install Costura.Fody -Version 3.3.3 -OutputDirectory D:\a\RedCsharp\RedCsharp\SharPersist\packages
+      
+      - name: Nuget Install TaskScheduler
+        run: nuget install TaskScheduler -Version 2.8.11 -OutputDirectory D:\a\RedCsharp\RedCsharp\SharPersist\packages
+          
+      - name: Build SharPersist
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharPersist\SharPersist\SharPersist.csproj /property:Configuration=Release
+          
+      - name: Nuget Restore SharpLocker
+        run: nuget restore $Env:GITHUB_WORKSPACE\SharpLocker\SharpLocker.sln
+          
+      - name: Build SharpLocker
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpLocker\SharpLocker\SharpLocker.csproj /property:Configuration=Release
       
       - uses: actions/upload-artifact@master
         with:
           name: SharpHound3
           path: SharpHound3\SharpHound3\bin\Release\SharpHound.exe
+      - uses: actions/upload-artifact@master
+        with:
+          name: SafetyKatz
+          path: SafetyKatz\SafetyKatz\bin\Release\SafetyKatz.exe
+      - uses: actions/upload-artifact@master
+        with:
+          name: Grouper2
+          path: Grouper2\Grouper2\bin\Release\Grouper2.exe
+      - uses: actions/upload-artifact@master
+        with:
+          name: Rubeus
+          path: Rubeus\Rubeus\bin\Release\Rubeus.exe
+      - uses: actions/upload-artifact@master
+        with:
+          name: SharpDomainSpray
+          path: SharpDomainSpray\bin\Release\SharpDomainSpray.exe
+      - uses: actions/upload-artifact@master
+        with:
+          name: SharPersist
+          path: SharPersist\SharPersist\bin\Release\SharPersist.exe
+      - uses: actions/upload-artifact@master
+        with:
+          name: SharpLocker
+          path: SharpLocker\SharpLocker\bin\Release\SharpLocker.exe
