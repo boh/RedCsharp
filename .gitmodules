@@ -214,3 +214,6 @@
 [submodule "KittyLitter"]
 	path = KittyLitter
 	url = https://github.com/djhohnstein/KittyLitter
+[submodule "RemoteProcessInjection"]
+	path = RemoteProcessInjection
+	url = https://github.com/Mr-Un1k0d3r/RemoteProcessInjection
