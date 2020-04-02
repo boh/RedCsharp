@@ -38,6 +38,8 @@
   * PowerShell rebuilt in C# for Red Teaming purposes
 * [Reg_Built](https://github.com/P1CKLES/Reg_Built)
   * C# Userland Registry RunKey persistence
+* [RemoteProcessInjection](https://github.com/Mr-Un1k0d3r/RemoteProcessInjection)
+  * C# remote process injection utility for Cobalt Strike
 * [Rubeus](https://github.com/GhostPack/Rubeus)
   * Rubeus is a C# toolset for raw Kerberos interaction and abuses.
 * RunProcessAsTask
