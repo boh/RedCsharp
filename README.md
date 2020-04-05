@@ -36,6 +36,8 @@
   * A pattern for client/server communication via Named Pipes via C#
 * [nopowershell](https://github.com/bitsadmin/nopowershell)
   * PowerShell rebuilt in C# for Red Teaming purposes
+* [PurpleSharp](https://github.com/mvelazc0/PurpleSharp)
+  * PurpleSharp is a C# adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments.
 * [Reg_Built](https://github.com/P1CKLES/Reg_Built)
   * C# Userland Registry RunKey persistence
 * [RemoteProcessInjection](https://github.com/Mr-Un1k0d3r/RemoteProcessInjection)
