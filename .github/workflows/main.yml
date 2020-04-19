@@ -70,6 +70,11 @@ jobs:
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
           .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpLocker\SharpLocker\SharpLocker.csproj /property:Configuration=Release
+          
+      - name: Build PurpleSharp
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\PurpleSharp\PurpleSharp\PurpleSharp.csproj /property:Configuration=Release
       
       - uses: actions/upload-artifact@master
         with:
@@ -99,3 +104,8 @@ jobs:
         with:
           name: SharpLocker
           path: SharpLocker\SharpLocker\bin\Release\SharpLocker.exe
+          
+      - uses: actions/upload-artifact@master
+        with:
+          name: PurpleSharp
+          path: PurpleSharp\PurpleSharp\bin\Release\PurpleSharp.exe  
