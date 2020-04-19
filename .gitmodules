@@ -220,3 +220,6 @@
 [submodule "SharpFinder"]
 	path = SharpFinder
 	url = https://github.com/s0lst1c3/SharpFinder
+[submodule "PurpleSharp"]
+	path = PurpleSharp
+	url = https://github.com/mvelazc0/PurpleSharp
