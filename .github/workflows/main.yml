@@ -111,4 +111,4 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: PurpleSharp
-          path: PurpleSharp\bin\Release\PurpleSharp.exe  
+          path: PurpleSharp\PurpleSharp\bin\Release\Simulator.exe
