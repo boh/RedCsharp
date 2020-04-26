@@ -223,3 +223,6 @@
 [submodule "PurpleSharp"]
 	path = PurpleSharp
 	url = https://github.com/mvelazc0/PurpleSharp
+[submodule "SharpFiles"]
+	path = SharpFiles
+	url = https://github.com/fullmetalcache/SharpFiles
