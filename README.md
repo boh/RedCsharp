@@ -85,6 +85,8 @@
   * Windows persistence toolkit written in C#.
 * [SharpExec](https://github.com/anthemtotheego/SharpExec)
   * SharpExec is an offensive security C# tool designed to aid with lateral movement. WMIExec. SMBExec. PSExec. WMI.
+* [SharpFiles](https://github.com/fullmetalcache/SharpFiles)
+  * C# program that takes in the file output from PowerView's Invoke-ShareFinder and will search through the network shares for files containing terms that you specify.
 * [SharpFinder](https://github.com/s0lst1c3/SharpFinder)
   * Searches for files matching specific criteria on readable shares within the domain.
 * [SharpFruit](https://github.com/rvrsh3ll/SharpFruit)
