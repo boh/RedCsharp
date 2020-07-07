@@ -226,3 +226,6 @@
 [submodule "SharpFiles"]
 	path = SharpFiles
 	url = https://github.com/fullmetalcache/SharpFiles
+[submodule "SharpBlock"]
+	path = SharpBlock
+	url = https://github.com/CCob/SharpBlock

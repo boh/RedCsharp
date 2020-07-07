@@ -61,6 +61,8 @@
   * c# implementation of Active Directory Integrated DNS dumping (authenticated user)
 * [SharpAttack](https://github.com/jaredhaight/SharpAttack)
   * SharpAttack is a console for certain things I use often during security assessments. It leverages .NET and the Windows API to perform its work. It contains commands for domain enumeration, code execution, and other fun things.
+* [SharpBlock](https://github.com/CCob/SharpBlock)
+  * A method of bypassing EDR's active projection DLL's by preventing entry point exection
 * [SharpClipHistory](https://github.com/FSecureLABS/SharpClipHistory)
   * SharpClipHistory is a .NET application written in C# that can be used to read the contents of a user's clipboard history in Windows 10 starting from the 1809 Build.
 * [SharpCloud](https://github.com/chrismaddalena/SharpCloud)
