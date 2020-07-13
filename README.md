@@ -149,5 +149,7 @@
   * Tool for injecting a "TCP Relay" managed assembly into an unmanaged process. 
 * [TikiTorch](https://github.com/rasta-mouse/TikiTorch)
   * Process Injection. The basic concept of CACTUSTORCH is that it spawns a new process, allocates a region of memory, then uses CreateRemoteThread to run the desired shellcode within that target process. Both the process and shellcode are specified by the user.
+* [TrustJack](https://github.com/jfmaes/TrustJack)
+  * Yet another PoC for https://www.wietzebeukema.nl/blog/hijacking-dlls-in-windows.
 * [Watson](https://github.com/rasta-mouse/Watson)
   * Enumerate missing KBs and suggest exploits for useful Privilege Escalation vulnerabilities

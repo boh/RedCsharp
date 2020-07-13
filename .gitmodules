@@ -229,3 +229,6 @@
 [submodule "SharpBlock"]
 	path = SharpBlock
 	url = https://github.com/CCob/SharpBlock
+[submodule "TrustJack"]
+	path = TrustJack
+	url = https://github.com/jfmaes/TrustJack
