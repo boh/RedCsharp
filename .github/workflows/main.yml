@@ -137,4 +137,4 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: TrustJack
-          path: TrustJack\bin\Release\TrustJacker.exe
+          path: TrustJack\bin\Release\POPTHATSHELLBOI.exe
