@@ -78,7 +78,12 @@ jobs:
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
           .\MSBuild.exe $Env:GITHUB_WORKSPACE\PurpleSharp\PurpleSharp\PurpleSharp.csproj /property:Configuration=Release
-      
+
+      - name: Build SharpBlock
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpBlock\SharpBlock\SharpBlock.csproj /property:Configuration=Release
+          
       - uses: actions/upload-artifact@master
         with:
           name: SharpHound3
@@ -112,3 +117,8 @@ jobs:
         with:
           name: PurpleSharp
           path: PurpleSharp\PurpleSharp\bin\Release\Simulator.exe
+
+      - uses: actions/upload-artifact@master
+        with:
+          name: SharpBlock
+          path: SharpBlock\SharpBlock\bin\Release\SharpBlock.exe
