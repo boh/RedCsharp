@@ -95,6 +95,11 @@ jobs:
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
           .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpBlock\SharpBlock.csproj /property:Configuration=Release
 
+      - name: Build SharpDump
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpDump\SharpDump\SharpDump.csproj /property:Configuration=Release
+          
       - uses: actions/upload-artifact@master
         with:
           name: SharpHound3
@@ -138,3 +143,8 @@ jobs:
         with:
           name: TrustJack
           path: TrustJack\bin\Release\POPTHATSHELLBOI.exe
+
+      - uses: actions/upload-artifact@master
+        with:
+          name: SharpDump
+          path: SharpDump\SharpDump\bin\Release\SharpDump.exe
