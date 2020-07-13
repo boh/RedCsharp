@@ -82,7 +82,7 @@ jobs:
       - name: Build SharpBlock
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
-          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpBlock\SharpBlock\SharpBlock.csproj /property:Configuration=Release
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpBlock\SharpBlock.csproj /property:Configuration=Release
           
       - uses: actions/upload-artifact@master
         with:
