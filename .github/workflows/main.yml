@@ -132,9 +132,9 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: SharpBlock
-          path: SharpBlock\SharpBlock\bin\Release\SharpBlock.exe
+          path: SharpBlock\bin\Release\SharpBlock.exe
 
       - uses: actions/upload-artifact@master
         with:
           name: TrustJack
-          path: TrustJack\TrustJack\bin\Release\TrustJack.exe
+          path: TrustJack\bin\Release\TrustJack.exe
