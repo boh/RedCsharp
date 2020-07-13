@@ -83,7 +83,18 @@ jobs:
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
           .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpBlock\SharpBlock.csproj /property:Configuration=Release
-          
+
+      - name: Nuget Restore TrustJack
+        run: nuget restore $Env:GITHUB_WORKSPACE\TrustJack\TrustJack.sln
+      
+      - name: Nuget Install Costura.Fody
+        run: nuget install Costura.Fody -Version 3.3.3 -OutputDirectory D:\a\RedCsharp\RedCsharp\TrustJack\packages
+
+      - name: Build TrustJack
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\TrustJack\TrustJack.csproj /property:Configuration=Release
+
       - uses: actions/upload-artifact@master
         with:
           name: SharpHound3
@@ -122,3 +133,8 @@ jobs:
         with:
           name: SharpBlock
           path: SharpBlock\SharpBlock\bin\Release\SharpBlock.exe
+
+      - uses: actions/upload-artifact@master
+        with:
+          name: TrustJack
+          path: TrustJack\TrustJack\bin\Release\TrustJack.exe
