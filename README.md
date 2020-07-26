@@ -141,6 +141,8 @@
   * SilkETW & SilkService are flexible C# wrappers for ETW, they are meant to abstract away the complexities of ETW and give people a simple interface to perform research and introspection. While both projects have obvious defensive (and offensive) applications they should primarily be considered as research tools.
 * [SneakyService]( https://github.com/malcomvetter/SneakyService)
   * A simple, minimal C# windows service implementation that can be used to demonstrate privilege escalation from misconfigured windows services.
+* [SpaceRunner](https://github.com/Mr-B0b/SpaceRunner)
+  * This tool enables the compilation of a C# program that will execute arbitrary PowerShell code, without launching PowerShell processes through the use of runspace.
 * [Stracciatella](https://github.com/mgeeky/Stracciatella)
   * OpSec-safe Powershell runspace from within C# (aka SharpPick) with AMSI and Script Block Logging disabled at startup
 * [taskkill](https://github.com/malcomvetter/taskkill )
