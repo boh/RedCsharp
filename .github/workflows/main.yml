@@ -109,6 +109,11 @@ jobs:
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
           .\MSBuild.exe $Env:GITHUB_WORKSPACE\Seatbelt\Seatbelt\Seatbelt.csproj /property:Configuration=Release
+
+      - name: Build InveighZero
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\InveighZero\Inveigh\Inveigh.csproj /property:Configuration=Release
       
       - name: Build SharpShares
         run: |
@@ -185,6 +190,11 @@ jobs:
         with:
           name: SharpShares
           path: SharpShares\bin\Release\SharpShares.exe
+      
+      - uses: actions/upload-artifact@master
+        with:
+          name: Inveigh
+          path: Inveigh\bin\Release\Inveigh.exe
       
       - uses: actions/upload-artifact@master
         with:

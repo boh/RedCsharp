@@ -238,3 +238,6 @@
 [submodule "SharpShares"]
 	path = SharpShares
 	url = https://github.com/djhohnstein/SharpShares
+[submodule "InveighZero"]
+	path = InveighZero
+	url = https://github.com/Kevin-Robertson/InveighZero

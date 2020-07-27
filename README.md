@@ -24,6 +24,8 @@
   * Find vulnerabilities in AD Group Policy
 * [Inception](https://github.com/two06/Inception)
   * Provides In-memory compilation and reflective loading of C# apps for AV evasion.
+* [InveighZero](https://github.com/Kevin-Robertson/InveighZero)
+  * Windows C# LLMNR/mDNS/NBNS/DNS/DHCPv6 spoofer/man-in-the-middle tool
 * [KittyLitter ](https://github.com/djhohnstein/KittyLitter)
   * Credential Dumper. It is comprised of two components, KittyLitter.exe and KittyScooper.exe. This will bind across TCP, SMB, and MailSlot channels to communicate credential material to lowest privilege attackers.
 * [Lockless](https://github.com/GhostPack/Lockless)
