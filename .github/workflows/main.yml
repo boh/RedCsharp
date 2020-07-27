@@ -194,7 +194,7 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: Inveigh
-          path: Inveigh\bin\Release\Inveigh.exe
+          path: InveighZero\Inveigh\bin\Release\Inveigh.exe
       
       - uses: actions/upload-artifact@master
         with:
