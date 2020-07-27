@@ -115,6 +115,8 @@
   * Discover Printers
 * [SharpRoast](https://github.com/GhostPack/SharpRoast)
   * SharpRoast is a C# port of various PowerView's Kerberoasting functionality.
+* [SharpShares](https://github.com/djhohnstein/SharpShares)
+  * Enumerate all network shares in the current domain. Also, can resolve names to IP addresses.
 * [SharpSC](https://github.com/djhohnstein/SharpSC)
   * Simple .NET assembly to interact with services.
 * [SharpSniper](https://github.com/HunnicCyber/SharpSniper)

@@ -235,3 +235,6 @@
 [submodule "SpaceRunner"]
 	path = SpaceRunner
 	url = https://github.com/Mr-B0b/SpaceRunner
+[submodule "SharpShares"]
+	path = SharpShares
+	url = https://github.com/djhohnstein/SharpShares
