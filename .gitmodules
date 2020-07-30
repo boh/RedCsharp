@@ -241,3 +241,6 @@
 [submodule "InveighZero"]
 	path = InveighZero
 	url = https://github.com/Kevin-Robertson/InveighZero
+[submodule "SharpMove"]
+	path = SharpMove
+	url = https://github.com/0xthirteen/SharpMove

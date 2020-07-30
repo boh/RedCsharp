@@ -109,6 +109,8 @@
   * Keylogger written in C#
 * [SharpNeedle](https://github.com/ChadSki/SharpNeedle)
   * Inject C# code into a running process. Note: SharpNeedle currently only supports 32-bit processes.
+* [SharpMove](https://github.com/0xthirteen/SharpMove)
+  * .NET Project for performing Authenticated Remote Execution (WMI, SCM, DCOM, Task Scheduler, Service DLL Hijack, DCOM Server Hijack, Modify Scheduled Task, Modify Service binpath) 
 * [SharpPack](https://github.com/mdsecactivebreach/SharpPack)
   * An Insider Threat Toolkit. SharpPack is a toolkit for insider threat assessments that lets you defeat application whitelisting to execute arbitrary DotNet and PowerShell tools.
 * [sharppcap](https://github.com/chmorgan/sharppcap)
