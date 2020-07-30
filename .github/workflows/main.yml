@@ -103,7 +103,7 @@ jobs:
       - name: Build SharpMove
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
-          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpMove\SharpMove\SharpMove.csproj /property:Configuration=Release
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpMove\SharpMove\SharpMove\SharpMove.csproj /property:Configuration=Release
 
       - name: Build SharpPrinter
         run: |
