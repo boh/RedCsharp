@@ -244,3 +244,9 @@
 [submodule "SharpMove"]
 	path = SharpMove
 	url = https://github.com/0xthirteen/SharpMove
+[submodule "SharpAppLocker"]
+	path = SharpAppLocker
+	url = https://github.com/Flangvik/SharpAppLocker
+[submodule "CSharpWinRM"]
+	path = CSharpWinRM
+	url = https://github.com/mez-0/CSharpWinRM

@@ -13,7 +13,9 @@
 * [CSharpScripts](https://github.com/Arno0x/CSharpScripts)
   * Collection of C# scripts
 * [CSharpSetThreadContext](https://github.com/djhohnstein/CSharpSetThreadContext)
-  * C# Shellcode Runner to execute shellcode via CreateRemoteThread and SetThreadContext to evade Get-InjectedThread
+  * C# Shellcode Runner to execute shellcode via CreateRemoteThread and SetThread Context to evade Get-InjectedThread
+* [CSharpWinRM](https://github.com/mez-0/CSharpWinRM)
+  * .NET 4.0 WinRM API Command Execution
 * [DnsCache](https://github.com/malcomvetter/DnsCache)
   * This is a reference example for how to call the Windows API to enumerate cached DNS records in the Windows resolver. Proof of concept or pattern only.
 * [FreshCookees](https://github.com/P1CKLES/FreshCookees)
@@ -61,6 +63,8 @@
   * fork of FuzzySecurity/Sharp-Suite
 * [SharpAdidnsdump](https://github.com/b4rtik/SharpAdidnsdump)
   * c# implementation of Active Directory Integrated DNS dumping (authenticated user)
+* [SharpAppLocker](https://github.com/Flangvik/SharpAppLocker)
+  * C# port of the Get-AppLockerPolicy PS cmdlet
 * [SharpAttack](https://github.com/jaredhaight/SharpAttack)
   * SharpAttack is a console for certain things I use often during security assessments. It leverages .NET and the Windows API to perform its work. It contains commands for domain enumeration, code execution, and other fun things.
 * [SharpBlock](https://github.com/CCob/SharpBlock)
