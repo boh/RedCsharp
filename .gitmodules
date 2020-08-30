@@ -250,3 +250,6 @@
 [submodule "CSharpWinRM"]
 	path = CSharpWinRM
 	url = https://github.com/mez-0/CSharpWinRM
+[submodule "SharpChisel"]
+	path = SharpChisel
+	url = https://github.com/shantanu561993/SharpChisel
