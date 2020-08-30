@@ -111,6 +111,8 @@
   * Hide .Net assembly into png images
 * [SharpLocker](https://github.com/Pickfordmatt/SharpLocker)
   * SharpLocker helps get current user credentials by popping a fake Windows lock screen, all output is sent to Console which works perfect for Cobalt Strike. 
+* [SharpLoginPrompt](https://github.com/shantanu561993/SharpLoginPrompt)
+  * This Program creates a login prompt to gather username and password of the current user. 
 * [SharpLogger](https://github.com/djhohnstein/SharpLogger)
   * Keylogger written in C#
 * [SharpNeedle](https://github.com/ChadSki/SharpNeedle)

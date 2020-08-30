@@ -253,3 +253,6 @@
 [submodule "SharpChisel"]
 	path = SharpChisel
 	url = https://github.com/shantanu561993/SharpChisel
+[submodule "SharpLoginPrompt"]
+	path = SharpLoginPrompt
+	url = https://github.com/shantanu561993/SharpLoginPrompt
