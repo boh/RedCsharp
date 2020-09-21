@@ -128,12 +128,16 @@ jobs:
       - name: Build SharpChisel
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+<<<<<<< HEAD
           .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpChisel\SharpChisel.csproj /property:Configuration=Release
       
       - name: Build SharpLoginPrompt
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
           .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpLoginPrompt\SharpLoginPrompt.csproj /property:Configuration=Release
+=======
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpChisel\SharpChisel\SharpChisel.csproj /property:Configuration=Release
+>>>>>>> 865eaa5224ac1884d53036758b4d38f6c5a4ab0b
      
       - name: Setup csc.exe
         uses: yoavain/Setup-CSC@v5
@@ -224,9 +228,13 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: SharpChisel
+<<<<<<< HEAD
           path: SharpChisel\SharpChisel.exe
       
       - uses: actions/upload-artifact@master
         with:
           name: SharpLoginPrompt
           path: SharpLoginPrompt\SharpLoginPrompt.exe
+=======
+          path: SharpChisel\SharpChisel\SharpChisel.exe
+>>>>>>> 865eaa5224ac1884d53036758b4d38f6c5a4ab0b

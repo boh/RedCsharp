@@ -151,6 +151,8 @@
   * SharpWMI is a C# implementation of various WMI functionality.
 * [SharPyShell](https://github.com/antonioCoco/SharPyShell )
   * SharPyShell - tiny and obfuscated ASP.NET webshell for C# web applications
+* [SharpZeroLogon](https://github.com/nccgroup/nccfsas/)
+  * This is an exploit for CVE-2020-1472, a.k.a. Zerologon.
 * [SilkETW](https://github.com/fireeye/SilkETW)
   * SilkETW & SilkService are flexible C# wrappers for ETW, they are meant to abstract away the complexities of ETW and give people a simple interface to perform research and introspection. While both projects have obvious defensive (and offensive) applications they should primarily be considered as research tools.
 * [SneakyService]( https://github.com/malcomvetter/SneakyService)
