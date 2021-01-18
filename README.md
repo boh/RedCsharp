@@ -117,6 +117,8 @@
   * This Program creates a login prompt to gather username and password of the current user. 
 * [SharpLogger](https://github.com/djhohnstein/SharpLogger)
   * Keylogger written in C#
+* [SharpMapExec](https://github.com/cube0x0/SharpMapExec)
+  * A sharpen version of CrackMapExec. This tool is made to simplify penetration testing of networks and to create a swiss army knife that is made for running on Windows which is often a requirement during insider threat simulation engagements.
 * [SharpNeedle](https://github.com/ChadSki/SharpNeedle)
   * Inject C# code into a running process. Note: SharpNeedle currently only supports 32-bit processes.
 * [SharpMove](https://github.com/0xthirteen/SharpMove)

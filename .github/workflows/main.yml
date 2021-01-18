@@ -44,6 +44,11 @@ jobs:
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
           .\MSBuild.exe $Env:GITHUB_WORKSPACE\SafetyKatz\SafetyKatz\SafetyKatz.csproj /property:Configuration=Release
+
+      - name: Build SharpMapExec
+        run: |
+          cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpMapExec\SharpMapExec.csproj /property:Configuration=Release
           
       - name: Build Grouper2
         run: |
@@ -228,13 +233,14 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: SharpChisel
-<<<<<<< HEAD
           path: SharpChisel\SharpChisel.exe
       
       - uses: actions/upload-artifact@master
         with:
           name: SharpLoginPrompt
           path: SharpLoginPrompt\SharpLoginPrompt.exe
-=======
-          path: SharpChisel\SharpChisel\SharpChisel.exe
->>>>>>> 865eaa5224ac1884d53036758b4d38f6c5a4ab0b
+
+      - uses: actions/upload-artifact@master
+        with:
+          name: SharpMapExec
+          path: SharpMapExec\SharpMapExec.exe
