@@ -262,3 +262,6 @@
 [submodule "RunasCs"]
 	path = RunasCs
 	url = https://github.com/antonioCoco/RunasCs
+[submodule "SharpMapExec"]
+	path = SharpMapExec
+	url = https://github.com/cube0x0/SharpMapExec
