@@ -19,7 +19,7 @@ jobs:
 
 
       - name: Setup Nuget.exe
-        uses: warrenbuckley/Setup-Nuget@v1
+        uses: nuget/setup-nuget@v1
 
       - name: Nuget Restore TrustJack
         run: nuget restore $Env:GITHUB_WORKSPACE\TrustJack\TrustJacker.sln
