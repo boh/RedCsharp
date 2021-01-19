@@ -138,7 +138,7 @@ jobs:
       - name: Build SharpLoginPrompt
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
-          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpLoginPrompt\SharpLoginPrompt.csproj /property:Configuration=Release
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpLoginPrompt\SharpLoginPrompt\SharpLoginPrompt.csproj /property:Configuration=Release
      
       - name: Setup csc.exe
         uses: yoavain/Setup-CSC@v5
@@ -234,7 +234,7 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: SharpLoginPrompt
-          path: SharpLoginPrompt\SharpLoginPrompt.exe
+          path: SharpLoginPrompt\bin\Release\SharpLoginPrompt.exe
 
       - uses: actions/upload-artifact@master
         with:
