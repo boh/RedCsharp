@@ -48,7 +48,7 @@ jobs:
       - name: Build SharpMapExec
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
-          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpMapExec\SharpMapExec.csproj /property:Configuration=Release
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpMapExec\SharpMapExec\SharpMapExec.csproj /property:Configuration=Release
           
       - name: Build Grouper2
         run: |
@@ -239,4 +239,4 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: SharpMapExec
-          path: SharpMapExec\SharpMapExec.exe
+          path: SharpMapExec\bin\Release\SharpMapExec.exe
