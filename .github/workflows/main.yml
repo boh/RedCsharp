@@ -229,7 +229,7 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: SharpChisel
-          path: SharpChisel\SharpChisel.exe
+          path: SharpChisel\bin\Release\SharpChisel.exe
       
       - uses: actions/upload-artifact@master
         with:
