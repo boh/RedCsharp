@@ -19,7 +19,7 @@ jobs:
 
 
       - name: Setup Nuget.exe
-        uses: warrenbuckley/Setup-Nuget@v1
+        uses: nuget/setup-nuget@v1
 
       - name: Nuget Restore TrustJack
         run: nuget restore $Env:GITHUB_WORKSPACE\TrustJack\TrustJacker.sln
@@ -48,7 +48,7 @@ jobs:
       - name: Build SharpMapExec
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
-          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpMapExec\SharpMapExec.csproj /property:Configuration=Release
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpMapExec\SharpMapExec\SharpMapExec.csproj /property:Configuration=Release
           
       - name: Build Grouper2
         run: |
@@ -133,16 +133,12 @@ jobs:
       - name: Build SharpChisel
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
-<<<<<<< HEAD
-          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpChisel\SharpChisel.csproj /property:Configuration=Release
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpChisel\SharpChisel\SharpChisel.csproj /property:Configuration=Release
       
       - name: Build SharpLoginPrompt
         run: |
           cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
-          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpLoginPrompt\SharpLoginPrompt.csproj /property:Configuration=Release
-=======
-          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpChisel\SharpChisel\SharpChisel.csproj /property:Configuration=Release
->>>>>>> 865eaa5224ac1884d53036758b4d38f6c5a4ab0b
+          .\MSBuild.exe $Env:GITHUB_WORKSPACE\SharpLoginPrompt\SharpLoginPrompt\SharpLoginPrompt.csproj /property:Configuration=Release
      
       - name: Setup csc.exe
         uses: yoavain/Setup-CSC@v5
@@ -233,14 +229,14 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: SharpChisel
-          path: SharpChisel\SharpChisel.exe
+          path: SharpChisel\bin\Release\SharpChisel.exe
       
       - uses: actions/upload-artifact@master
         with:
           name: SharpLoginPrompt
-          path: SharpLoginPrompt\SharpLoginPrompt.exe
+          path: SharpLoginPrompt\bin\Release\SharpLoginPrompt.exe
 
       - uses: actions/upload-artifact@master
         with:
           name: SharpMapExec
-          path: SharpMapExec\SharpMapExec.exe
+          path: SharpMapExec\bin\Release\SharpMapExec.exe
