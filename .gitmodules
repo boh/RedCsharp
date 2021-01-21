@@ -265,3 +265,6 @@
 [submodule "SharpMapExec"]
 	path = SharpMapExec
 	url = https://github.com/cube0x0/SharpMapExec
+[submodule "SharpSphere"]
+	path = SharpSphere
+	url = https://github.com/JamesCooteUK/SharpSphere

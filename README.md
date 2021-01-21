@@ -139,6 +139,8 @@
   * Find specific users in active directory via their username and logon IP address
 * [SharpSocks]( https://github.com/nettitude/SharpSocks)
   * Tunnellable HTTP/HTTPS socks4a proxy written in C# and deployable via PowerShell
+* [SharpSphere](https://github.com/JamesCooteUK/SharpSphere)
+  * .NET Project for Attacking vCenter
 * [SharpSploit](https://github.com/cobbr/SharpSploit)
   * SharpSploit is a .NET post-exploitation library written in C# https://sharpsploit.cobbr.io/api/
 * [SharpSpray](https://github.com/jnqpblc/SharpSpray)
