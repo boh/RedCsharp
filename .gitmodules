@@ -268,3 +268,6 @@
 [submodule "SharpSphere"]
 	path = SharpSphere
 	url = https://github.com/JamesCooteUK/SharpSphere
+[submodule "SharpRelay"]
+	path = SharpRelay
+	url = https://github.com/pkb1s/SharpRelay

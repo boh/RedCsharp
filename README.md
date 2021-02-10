@@ -129,6 +129,8 @@
   * Official repository - Fully managed, cross platform (Windows, Mac, Linux) .NET library for capturing packets
 * [SharpPrinter](https://github.com/rvrsh3ll/SharpPrinter)
   * Discover Printers
+* [SharpRelay](https://github.com/pkb1s/SharpRelay)
+  * Relay hashes over CobaltStrike beacon and impacket ntlmrelayx.py.
 * [SharpRoast](https://github.com/GhostPack/SharpRoast)
   * SharpRoast is a C# port of various PowerView's Kerberoasting functionality.
 * [SharpShares](https://github.com/djhohnstein/SharpShares)
