@@ -274,3 +274,6 @@
 [submodule "SafetyDump"]
 	path = SafetyDump
 	url = https://github.com/m0rv4i/SafetyDump
+[submodule "MaliciousClickOnceMSBuild"]
+	path = MaliciousClickOnceMSBuild
+	url = https://github.com/hausec/MaliciousClickOnceMSBuild

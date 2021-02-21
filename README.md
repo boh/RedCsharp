@@ -32,6 +32,8 @@
   * Credential Dumper. It is comprised of two components, KittyLitter.exe and KittyScooper.exe. This will bind across TCP, SMB, and MailSlot channels to communicate credential material to lowest privilege attackers.
 * [Lockless](https://github.com/GhostPack/Lockless)
   * Lockless allows for the copying of locked files.
+* [MaliciousClickOnceMSBuild](https://github.com/hausec/MaliciousClickOnceMSBuild)
+  * Basic C# Project that will take an MSBuild payload and run it with MSBuild via ClickOnce.
 * [Minidump](https://github.com/3xpl01tc0d3r/Minidump)
   * The program is designed to dump full memory of the process by specifing process name or process id.
 * [MiscTools](https://github.com/rasta-mouse/MiscTools)
