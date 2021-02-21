@@ -53,6 +53,8 @@
   * RunasCs - Csharp and open version of windows builtin runas.exe
 * [RunSharp](https://github.com/fullmetalcache/RunSharp)
   * Simple program that allows you to run commands as another user without being prompted for their password. This is useful in cases where you don't always get feedback from a prompt, such as the case with some remote shells.
+* [SafetyDump](https://github.com/m0rv4i/SafetyDump)
+  * SafetyDump is an in-memory process memory dumper.
 * [SafetyKatz](https://github.com/GhostPack/SafetyKatz)
   * SafetyKatz is a combination of slightly modified version of @gentilkiwi's Mimikatz project and @subTee's .NET PE Loader
 * [Seatbelt](https://github.com/GhostPack/Seatbelt)

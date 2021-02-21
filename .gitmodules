@@ -271,3 +271,6 @@
 [submodule "SharpRelay"]
 	path = SharpRelay
 	url = https://github.com/pkb1s/SharpRelay
+[submodule "SafetyDump"]
+	path = SafetyDump
+	url = https://github.com/m0rv4i/SafetyDump
