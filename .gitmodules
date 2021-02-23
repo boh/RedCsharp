@@ -277,3 +277,6 @@
 [submodule "MaliciousClickOnceMSBuild"]
 	path = MaliciousClickOnceMSBuild
 	url = https://github.com/hausec/MaliciousClickOnceMSBuild
+[submodule "Farmer"]
+	path = Farmer
+	url = https://github.com/mdsecactivebreach/Farmer
