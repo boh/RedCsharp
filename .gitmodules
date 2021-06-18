@@ -280,3 +280,6 @@
 [submodule "Farmer"]
 	path = Farmer
 	url = https://github.com/mdsecactivebreach/Farmer
+[submodule "SharpHook"]
+	path = SharpHook
+	url = https://github.com/IlanKalendarov/SharpHook

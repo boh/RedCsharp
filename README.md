@@ -97,6 +97,8 @@
   * SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality.
 * [SharpEdge](https://github.com/rvrsh3ll/SharpEdge)
   * C# Implementation of Get-VaultCredential
+* [SharpHook](https://github.com/IlanKalendarov/SharpHook)
+  * SharpHook is inspired by the SharpRDPThief project, It uses various API hooks in order to give us the desired credentials.
 * [SharpChisel](https://github.com/shantanu561993/SharpChisel)
   * C# Wrapper around Chisel from https://github.com/jpillora/chisel
 * [SharPersist](https://github.com/fireeye/SharPersist)
