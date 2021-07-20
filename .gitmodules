@@ -295,3 +295,6 @@
 [submodule "SharpExcelibur"]
 	path = SharpExcelibur
 	url = https://github.com/OG-Sadpanda/SharpExcelibur
+[submodule "CVE-2021-1675"]
+	path = CVE-2021-1675
+	url = https://github.com/cube0x0/CVE-2021-1675

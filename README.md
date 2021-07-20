@@ -16,6 +16,8 @@
   * C# Shellcode Runner to execute shellcode via CreateRemoteThread and SetThread Context to evade Get-InjectedThread
 * [CSharpWinRM](https://github.com/mez-0/CSharpWinRM)
   * .NET 4.0 WinRM API Command Execution
+* [PrintNightmare in CSharp](https://github.com/cube0x0/CVE-2021-1675)
+  * C# and Impacket implementation of PrintNightmare CVE-2021-1675/CVE-2021-34527
 * [DnsCache](https://github.com/malcomvetter/DnsCache)
   * This is a reference example for how to call the Windows API to enumerate cached DNS records in the Windows resolver. Proof of concept or pattern only.
 * [Farmer](https://github.com/mdsecactivebreach/Farmer)
