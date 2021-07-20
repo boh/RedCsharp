@@ -22,6 +22,8 @@
   * Farmer is a project for collecting NetNTLM hashes in a Windows domain. Farmer achieves this by creating a local WebDAV server that causes the WebDAV Mini Redirector to authenticate from any connecting clients.
 * [FreshCookees](https://github.com/P1CKLES/FreshCookees)
   * C# .NET 3.5 tool that keeps proxy auth cookies fresh by maintaining a hidden IE process that navs to your hosted auto refresh page. Uses WMI event listeners to monitor for InstanceDeletionEvents of the Internet Explorer process, and starts a hidden IE process via COM object if no other IE processes are running.
+* [](https://github.com/Apr4h/GetInjectedThreads)
+  * C# Implementation of Jared Atkinson's Get-InjectedThread.ps1
 * [GoldenTicket](https://github.com/ZeroPointSecurity/GoldenTicket)
   * This .NET assembly is specifically designed for creating Golden Tickets. It has been built with a custom version of SharpSploit and an old 2.0 alpha (x64) version of Powerkatz.
 * [Grouper2](https://github.com/l0ss/Grouper2)
@@ -77,6 +79,8 @@
   * SharpAttack is a console for certain things I use often during security assessments. It leverages .NET and the Windows API to perform its work. It contains commands for domain enumeration, code execution, and other fun things.
 * [SharpBlock](https://github.com/CCob/SharpBlock)
   * A method of bypassing EDR's active projection DLL's by preventing entry point exection
+* [SharpCat](https://github.com/OG-Sadpanda/SharpCat)
+  * C# alternative to the linux "cat" command... Prints file contents to console. For use with Cobalt Strike's Execute-Assembly
 * [SharpClipHistory](https://github.com/FSecureLABS/SharpClipHistory)
   * SharpClipHistory is a .NET application written in C# that can be used to read the contents of a user's clipboard history in Windows 10 starting from the 1809 Build.
 * [SharpCloud](https://github.com/chrismaddalena/SharpCloud)
@@ -103,6 +107,8 @@
   * C# Wrapper around Chisel from https://github.com/jpillora/chisel
 * [SharPersist](https://github.com/fireeye/SharPersist)
   * Windows persistence toolkit written in C#.
+* [SharpExcelibur](https://github.com/OG-Sadpanda/SharpExcelibur)
+  * Read Excel Spreadsheets (XLS/XLSX) using Cobalt Strike's Execute-Assembly
 * [SharpExec](https://github.com/anthemtotheego/SharpExec)
   * SharpExec is an offensive security C# tool designed to aid with lateral movement. WMIExec. SMBExec. PSExec. WMI.
 * [SharpFiles](https://github.com/fullmetalcache/SharpFiles)
@@ -157,6 +163,8 @@
   * SharpSpray a simple code set to perform a password spraying attack against all users of a domain using LDAP and is compatible with Cobalt Strike.
 * [SharpSSDP](https://github.com/rvrsh3ll/SharpSSDP)
   * SSDP Service Discovery
+* [SharpSword](https://github.com/OG-Sadpanda/SharpSword)
+  * Read the contents of DOCX files using Cobalt Strike's Execute-Assembly
 * [SharpTask](https://github.com/jnqpblc/SharpTask)
   * SharpTask is a simple code set to interact with the Task Scheduler service api and is compatible with Cobalt Strike.
 * [SharpView](https://github.com/tevora-threat/SharpView)

@@ -283,3 +283,15 @@
 [submodule "SharpHook"]
 	path = SharpHook
 	url = https://github.com/IlanKalendarov/SharpHook
+[submodule "GetInjectedThreads"]
+	path = GetInjectedThreads
+	url = https://github.com/Apr4h/GetInjectedThreads
+[submodule "SharpCat"]
+	path = SharpCat
+	url = https://github.com/OG-Sadpanda/SharpCat
+[submodule "SharpSword"]
+	path = SharpSword
+	url = https://github.com/OG-Sadpanda/SharpSword
+[submodule "SharpExcelibur"]
+	path = SharpExcelibur
+	url = https://github.com/OG-Sadpanda/SharpExcelibur
