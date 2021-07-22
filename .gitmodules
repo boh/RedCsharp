@@ -298,3 +298,6 @@
 [submodule "CVE-2021-1675"]
 	path = CVE-2021-1675
 	url = https://github.com/cube0x0/CVE-2021-1675
+[submodule "LittleCorporal"]
+	path = LittleCorporal
+	url = https://github.com/connormcgarr/LittleCorporal
