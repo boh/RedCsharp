@@ -301,3 +301,6 @@
 [submodule "LittleCorporal"]
 	path = LittleCorporal
 	url = https://github.com/connormcgarr/LittleCorporal
+[submodule "OffensiveCSharp"]
+	path = OffensiveCSharp
+	url = https://github.com/matterpreter/OffensiveCSharp

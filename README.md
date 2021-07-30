@@ -50,6 +50,8 @@
   * A pattern for client/server communication via Named Pipes via C#
 * [nopowershell](https://github.com/bitsadmin/nopowershell)
   * PowerShell rebuilt in C# for Red Teaming purposes
+* [OffensiveCSharp](https://github.com/matterpreter/OffensiveCSharp)
+  * Collection of Offensive C# Tooling
 * [PurpleSharp](https://github.com/mvelazc0/PurpleSharp)
   * PurpleSharp is a C# adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments.
 * [Reg_Built](https://github.com/P1CKLES/Reg_Built)
