@@ -30,6 +30,8 @@
   * This .NET assembly is specifically designed for creating Golden Tickets. It has been built with a custom version of SharpSploit and an old 2.0 alpha (x64) version of Powerkatz.
 * [Grouper2](https://github.com/l0ss/Grouper2)
   * Find vulnerabilities in AD Group Policy
+* [HTTPS_CSharp_Server](https://github.com/secdev-01/HTTPS_CSharp_Server)
+  * Implementing a Multithreaded HTTP/HTTPS Debugging Proxy Server in C# xref.
 * [Inception](https://github.com/two06/Inception)
   * Provides In-memory compilation and reflective loading of C# apps for AV evasion.
 * [InveighZero](https://github.com/Kevin-Robertson/InveighZero)
