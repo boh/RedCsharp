@@ -307,3 +307,6 @@
 [submodule "HTTPS_CSharp_Server"]
 	path = HTTPS_CSharp_Server
 	url = https://github.com/secdev-01/HTTPS_CSharp_Server
+[submodule "SharpSQL"]
+	path = SharpSQL
+	url = https://github.com/mlcsec/SharpSQL

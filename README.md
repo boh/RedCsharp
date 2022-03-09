@@ -171,6 +171,8 @@
   * SharpSpray a simple code set to perform a password spraying attack against all users of a domain using LDAP and is compatible with Cobalt Strike.
 * [SharpSSDP](https://github.com/rvrsh3ll/SharpSSDP)
   * SSDP Service Discovery
+* [SharpSQL](https://github.com/mlcsec/SharpSQL)
+  * Simple C# implementation of PowerUpSQL.
 * [SharpSword](https://github.com/OG-Sadpanda/SharpSword)
   * Read the contents of DOCX files using Cobalt Strike's Execute-Assembly
 * [SharpTask](https://github.com/jnqpblc/SharpTask)
