@@ -313,3 +313,6 @@
 [submodule "SharpTerminator"]
 	path = SharpTerminator
 	url = https://github.com/mertdas/SharpTerminator
+[submodule "SharpClipboard"]
+	path = SharpClipboard
+	url = https://github.com/slyd0g/SharpClipboard

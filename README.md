@@ -89,6 +89,8 @@
   * A method of bypassing EDR's active projection DLL's by preventing entry point exection
 * [SharpCat](https://github.com/OG-Sadpanda/SharpCat)
   * C# alternative to the linux "cat" command... Prints file contents to console. For use with Cobalt Strike's Execute-Assembly
+* [SharpClipboard](https://github.com/slyd0g/SharpClipboard)
+  * C# Clipboard Monitor
 * [SharpClipHistory](https://github.com/FSecureLABS/SharpClipHistory)
   * SharpClipHistory is a .NET application written in C# that can be used to read the contents of a user's clipboard history in Windows 10 starting from the 1809 Build.
 * [SharpCloud](https://github.com/chrismaddalena/SharpCloud)
