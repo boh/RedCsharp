@@ -310,3 +310,6 @@
 [submodule "SharpSQL"]
 	path = SharpSQL
 	url = https://github.com/mlcsec/SharpSQL
+[submodule "SharpTerminator"]
+	path = SharpTerminator
+	url = https://github.com/mertdas/SharpTerminator

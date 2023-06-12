@@ -177,6 +177,8 @@
   * Read the contents of DOCX files using Cobalt Strike's Execute-Assembly
 * [SharpTask](https://github.com/jnqpblc/SharpTask)
   * SharpTask is a simple code set to interact with the Task Scheduler service api and is compatible with Cobalt Strike.
+* [SharpTerminator](https://github.com/mertdas/SharpTerminator)
+  * Terminate AV/EDR Processes using kernel driver
 * [SharpView](https://github.com/tevora-threat/SharpView)
   * C# implementation of harmj0y's PowerView
 * [SharpWeb](https://github.com/djhohnstein/SharpWeb)
