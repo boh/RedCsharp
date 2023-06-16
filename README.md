@@ -175,6 +175,8 @@
   * SSDP Service Discovery
 * [SharpSQL](https://github.com/mlcsec/SharpSQL)
   * Simple C# implementation of PowerUpSQL.
+* [SharpSystemTriggers](https://github.com/cube0x0/SharpSystemTriggers)
+  * Collection of remote authentication triggers in C#
 * [SharpSword](https://github.com/OG-Sadpanda/SharpSword)
   * Read the contents of DOCX files using Cobalt Strike's Execute-Assembly
 * [SharpTask](https://github.com/jnqpblc/SharpTask)

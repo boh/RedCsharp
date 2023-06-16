@@ -316,3 +316,6 @@
 [submodule "SharpClipboard"]
 	path = SharpClipboard
 	url = https://github.com/slyd0g/SharpClipboard
+[submodule "SharpSystemTriggers"]
+	path = SharpSystemTriggers
+	url = https://github.com/cube0x0/SharpSystemTriggers
