@@ -109,6 +109,8 @@
   * SharpDPAPI is a C# port of some Mimikatz DPAPI functionality.
 * [SharpDump](https://github.com/GhostPack/SharpDump)
   * SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality.
+* [SharpDXWebcam](https://github.com/snovvcrash/SharpDXWebcam)
+  * The DirectX and DShowNET assemblies to record video from the host's webcam
 * [SharpEdge](https://github.com/rvrsh3ll/SharpEdge)
   * C# Implementation of Get-VaultCredential
 * [SharpHook](https://github.com/IlanKalendarov/SharpHook)

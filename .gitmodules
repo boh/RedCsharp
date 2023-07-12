@@ -319,3 +319,6 @@
 [submodule "SharpSystemTriggers"]
 	path = SharpSystemTriggers
 	url = https://github.com/cube0x0/SharpSystemTriggers
+[submodule "SharpDXWebcam"]
+	path = SharpDXWebcam
+	url = https://github.com/snovvcrash/SharpDXWebcam
