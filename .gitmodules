@@ -322,3 +322,6 @@
 [submodule "SharpDXWebcam"]
 	path = SharpDXWebcam
 	url = https://github.com/snovvcrash/SharpDXWebcam
+[submodule "KRBUACBypass"]
+	path = KRBUACBypass
+	url = https://github.com/wh0amitz/KRBUACBypass/

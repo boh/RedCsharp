@@ -38,6 +38,8 @@
   * Windows C# LLMNR/mDNS/NBNS/DNS/DHCPv6 spoofer/man-in-the-middle tool
 * [KittyLitter ](https://github.com/djhohnstein/KittyLitter)
   * Credential Dumper. It is comprised of two components, KittyLitter.exe and KittyScooper.exe. This will bind across TCP, SMB, and MailSlot channels to communicate credential material to lowest privilege attackers.
+* [KRBUACBypass](https://github.com/wh0amitz/KRBUACBypass/)
+  * UAC Bypass By Abusing Kerberos Tickets
 * [LittleCorporal](https://github.com/connormcgarr/LittleCorporal)
   * LittleCorporal: A C# Automated Maldoc Generator
 * [Lockless](https://github.com/GhostPack/Lockless)
