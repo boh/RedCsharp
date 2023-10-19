@@ -325,3 +325,6 @@
 [submodule "KRBUACBypass"]
 	path = KRBUACBypass
 	url = https://github.com/wh0amitz/KRBUACBypass/
+[submodule "EDD"]
+	path = EDD
+	url = https://github.com/RedSiege/EDD

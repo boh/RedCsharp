@@ -20,6 +20,8 @@
   * C# and Impacket implementation of PrintNightmare CVE-2021-1675/CVE-2021-34527
 * [DnsCache](https://github.com/malcomvetter/DnsCache)
   * This is a reference example for how to call the Windows API to enumerate cached DNS records in the Windows resolver. Proof of concept or pattern only.
+* [EDD](https://github.com/RedSiege/EDD)
+  * Enumerate Domain Data is designed to be similar to PowerView but in .NET.
 * [Farmer](https://github.com/mdsecactivebreach/Farmer)
   * Farmer is a project for collecting NetNTLM hashes in a Windows domain. Farmer achieves this by creating a local WebDAV server that causes the WebDAV Mini Redirector to authenticate from any connecting clients.
 * [FreshCookees](https://github.com/P1CKLES/FreshCookees)
